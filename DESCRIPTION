@@ -1,0 +1,11 @@
+Package: mr
+Type: Package
+Title: Demo R package for the Mastering R Class
+Version: 0.1.0
+Author: Gerold <gerold.csendes@gmail.com>
+Maintainer: Gerold <gerold.csendes@gmail.com>
+Description: Demo R package for the Mastering R Class
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
