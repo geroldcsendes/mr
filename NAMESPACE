@@ -2,3 +2,5 @@
 
 export(forint)
 export(get_bitcoin_price)
+importFrom(binancer,binance_coins_prices)
+importFrom(scales,dollar)

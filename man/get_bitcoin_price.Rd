@@ -2,16 +2,13 @@
 % Please edit documentation in R/hello.R
 \name{get_bitcoin_price}
 \alias{get_bitcoin_price}
-\title{Function to fetch current bitcoin prices}
+\title{Hitting the Binance API to get the most recent price of a Bitcoin in USD}
 \usage{
 get_bitcoin_price(retried = 0)
 }
 \arguments{
-\item{retried}{Number of time retried fetching data from Binance.}
-}
-\value{
-Current Bitcoin price is USD
+\item{retried}{the number of retries previously done before the exponential backoff sleep}
 }
 \description{
-Function to fetch current bitcoin prices
+This is a wrapper arond the \code{binancer} package
 }

@@ -2,16 +2,13 @@
 % Please edit documentation in R/hello.R
 \name{forint}
 \alias{forint}
-\title{Function to format currency to HUF}
+\title{Formatter function for Hungarian Forint}
 \usage{
 forint(amt)
 }
 \arguments{
-\item{amt}{Numeric currency amount}
-}
-\value{
-Formatted currency.
+\item{x}{number}
 }
 \description{
-Function to format currency to HUF
+Formatter function for Hungarian Forint
 }
