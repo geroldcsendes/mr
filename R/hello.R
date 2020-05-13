@@ -21,3 +21,5 @@ get_bitcoin_price <- function(retried = 0){
 forint <- function(amt){
   dollar(amt, prefix = '', suffix = ' HUF')
 }
+
+#TODO
