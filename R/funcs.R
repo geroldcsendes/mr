@@ -4,6 +4,7 @@
 #' @export
 #' @param retried Number of retries in the previous step
 #' @importFrom binancer binance_coins_prices
+#' @import data.table
 get_bitcoin_price <- function(retried = 0) {
   tryCatch(binance_coins_prices()[symbol == 'BTC']$usd,
            error = function (e) {

@@ -2,5 +2,6 @@
 
 export(forint)
 export(get_bitcoin_price)
+import(data.table)
 importFrom(binancer,binance_coins_prices)
 importFrom(scales,dollar)
